@@ -22,3 +22,6 @@ A simple command-line Hangman game written in Python.
 
 ## 🔨 Language used 
    Python 3
+
+## Author
+   Lalitha.N
