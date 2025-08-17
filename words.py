@@ -1,3 +1,4 @@
+#words collections for hangman game
 words = [
   'array', 'async', 'bug', 'byte', 'cache', 'class', 'code', 'commit', 'compile', 'const',
   'data', 'debug', 'deploy', 'dev', 'diff', 'docker', 'enum', 'error', 'false', 'fetch',
