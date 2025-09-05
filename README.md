@@ -9,6 +9,19 @@ A simple command-line Hangman game written in Python.
 - Input validation
 - Win/loss messaging
 
+## Steps to run
+
+### Clone the repo
+git clone https://github.com/lalitha-n546/Hangman-.git  
+
+### Go to folder
+```python
+   cd hangman
+   ```
+### Run the game
+```python 
+hangman.py
+```
 ## 📚 Topics Covered
 -Functions
 
@@ -19,6 +32,8 @@ A simple command-line Hangman game written in Python.
 -ASCII art
 
 -Input/output handling
+
+> For the code --> [Code](https://github.com/lalitha-n546/Hangman-.git)
 
 ## 🔨 Language used 
    Python 3
