@@ -33,7 +33,6 @@ hangman.py
 
 -Input/output handling
 
-> For the code --> [Code](https://github.com/lalitha-n546/Hangman-.git)
 
 ## 🔨 Language used 
    Python 3
