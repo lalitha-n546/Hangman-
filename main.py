@@ -1,5 +1,8 @@
 import random
-from words import words
+def import_words(file):
+    with open(file,'r') as f:
+        words = f.read().splitlines() 
+    return words
 
 # Hangman stages (ASCII art for wrong guesses)
 HANGMAN_PICS = [
@@ -67,7 +70,7 @@ HANGMAN_PICS = [
     --------
     """
 ]
-
+words = import_words("words.txt")
 word = random.choice(words)
 guessed_letters = set()
 tries = len(HANGMAN_PICS) - 1  
@@ -78,7 +81,8 @@ print("Welcome to Hangman!")
 print(HANGMAN_PICS[wrong_guesses])
 print("_ " * len(word))
 
-while tries > 0:
+while wrong_guesses < len(HANGMAN_PICS) - 1:
+
     guess = input("Guess a letter: ").lower()  
     
     if not guess.isalpha() or len(guess) != 1:
